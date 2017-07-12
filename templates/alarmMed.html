@@ -1,0 +1,76 @@
+<ion-view ng-controller="TodoController">
+  <div class="bar bar-header bar-color">
+    <h1 class="title" style="font-size:22px; color:white;">Pill Box</h1>
+  </div>
+  
+  <ion-content>
+ 
+   
+    <div class="small-container">
+      
+  <div class="row" style="margin-top:5%;">
+    <div class="col-50">
+        <div class="card list ">
+           <div class="item item-divider bar-color"><h2 style="color:#ffffff;">Morning</h2></div>
+          <div class="item item-text-wrap">
+            <div class="list" data-ng-repeat="a in medlist">
+              <div class="item">
+                <span>Wednesday, 7:00 am</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+   
+    <div class= "col-50">
+        <div class="card list ">
+           <div class="item item-divider bar-color"><h2 style="color:#ffffff;">Afternoon</h2></div>
+          <div class="item item-text-wrap">
+            <div class="list" data-ng-repeat="a in medlist">
+              <div class="item item-icon-right">
+                <span>Today, 12 pm</span>
+        
+                <a class="button button-icon icon ion-android-delete"data-ng-click="remove($index)"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+  <div class="row" style="margin-top:-5%;">
+    <div class="col-50">
+        <div class="card list ">
+           <div class="item item-divider bar-color"><h2 style=" color:#ffffff;">Evening</h2></div>
+          <div class="item item-text-wrap">
+            <div class="list" data-ng-repeat="a in medlist">
+              <div class="item item-icon-right">
+                <span>Friday, 4:00 pm</span>
+
+                <a class="button button-icon icon ion-android-delete"data-ng-click="remove($index)"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+   
+    <div class= "col-50">
+        <div class="card list ">
+           <div class="item item-divider bar-color"><h2 style="color:#ffffff;">Night</h2></div>
+          <div class="item item-text-wrap">
+            <div class="list" data-ng-repeat="a in medlist">
+              <div class="item item-icon-right">
+                <span>Saturday, 1:00 am</span>
+
+                <a class="button button-icon icon ion-android-delete"data-ng-click="remove($index)"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+     
+    </div>
+  </ion-content>
+</ion-view>

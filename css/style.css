@@ -1,0 +1,35 @@
+.bar-color{
+  background-color: #01579B;
+  color:#ffffff;
+  border: none;
+}
+.input-group input{
+  height: 40px;
+  width: 80%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  border-color: #09364f;
+}
+.input-group{
+  margin: 20px 0px 15px 0px;
+}
+.button{
+  color:#ffffff;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 0px 27% 0px 27%;
+  margin-top: 8px;
+}
+.card{
+   border-radius: 5px;
+}
+.color{
+  height: 150px;
+  background-color: ;
+}
+
+
+  /* Empty. Add your own CSS if you like */
